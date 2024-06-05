@@ -1,0 +1,499 @@
+@import url("../fonts/fonts.css");
+@import url("./base/_base.scss");
+@import url("./base/_mixins.scss");
+@import url("./base/_variables.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: url("../images/Background.jpg");
+  padding: 46px 0 233px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -17px;
+  margin-left: 159px;
+  color: white;
+  width: 152px;
+  letter-spacing: 1px;
+}
+
+.me-2 {
+  color: white;
+  margin-top: -7px;
+  padding-left: 35px;
+}
+
+.btn-sm {
+  color: white;
+  margin-top: -7px;
+  padding-right: 10px;
+}
+
+.offer {
+  margin-top: 139px;
+  margin-right: -123px;
+  text-align: center;
+}
+
+.offer-title {
+  font-size: 52px;
+  font-weight: bold;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.offer-text {
+  font-size: 24px;
+  font-family: "Roboto";
+  margin-top: 23px;
+  margin-bottom: 38px;
+}
+
+.offer-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 12px 20px;
+  width: 225px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+}
+
+.text {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 89px;
+  margin-bottom: 35px;
+  margin-left: 125px;
+}
+
+.works-1 {
+  background-image: url("../images/Step 1 image.jpg");
+  background-repeat: no-repeat;
+  padding: 219px 0 21px;
+}
+
+.works-2 {
+  background-image: url("../images/Step 2.jpg");
+  background-repeat: no-repeat;
+  padding: 250px 0 21px;
+}
+
+.works-3 {
+  background-image: url("../images/Step 3.jpg");
+  background-repeat: no-repeat;
+  padding: 219px 0 21px;
+}
+
+.off-2 {
+  margin-left: 25px;
+}
+
+.works-text-one {
+  font-size: 10px;
+  padding: 5px 14px 3px;
+  width: 70px;
+  background-color: #FF4E50;
+  border-radius: 40px;
+  letter-spacing: 1px;
+}
+
+.works-text-two {
+  font-size: 24px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.works-text-three {
+  font-size: 14px;
+  color: #E3E3E3;
+  font-family: "Roboto";
+  width: 250px;
+}
+
+.text-par {
+  margin-top: 66px;
+}
+
+.partner-block {
+  padding-bottom: 31px;
+  text-align: center;
+  position: relative;
+}
+
+.partner-block::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 88px;
+  right: 77px;
+  background-image: url("../images/music.svg");
+  background-size: 16px auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(240, 42, 42);
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.partner-block-2::before {
+  background-image: url("../images/brush-alt.svg");
+  background-color: #19D4CA;
+}
+
+.partner-block-3::before {
+  background-image: url("../images/camera.svg");
+  background-color: #FFA710;
+}
+
+.partner-block-4::before {
+  background-image: url("../images/plane-departure.svg");
+  background-color: #667DF3;
+}
+
+.part-name {
+  font-size: 14px;
+  color: #444444;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-bottom: 12px;
+}
+
+.part-text {
+  color: #666666;
+  font-size: 14px;
+  font-weight: "Roboto";
+  width: 221px;
+  margin: 0 auto;
+}
+
+.part-img-1 {
+  border-radius: 50%;
+}
+
+.part-img-2 {
+  border-radius: 50%;
+}
+
+.part-img-3 {
+  border-radius: 50%;
+}
+
+.part-img-4 {
+  border-radius: 50%;
+}
+
+.part-link {
+  text-decoration: none;
+  color: #FF4E50;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px 19px 8px 24px;
+  margin: 0 auto;
+  width: 200px;
+  border-radius: 40px;
+  outline: 2px solid #FF4E50;
+  text-align: center;
+}
+
+.text-hol {
+  margin-top: 85px;
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 310px 310px 310px;
+  gap: 20px 20px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.sports {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("../images/Sport.jpg");
+}
+
+.health {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("../images/Healath.jpg");
+}
+
+.extreme {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-image: url("../images/Extreme.jpg");
+}
+
+.games {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/Games.jpg");
+}
+
+.culture {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/Culture.jpg");
+}
+
+.enjomet {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-image: url("../images/Culture Copy.jpg");
+}
+
+.travelling {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-image: url("../images/Games Copy.jpg");
+}
+
+.text-activity {
+  margin-bottom: 0;
+  margin-top: 96px;
+}
+
+.input-box {
+  text-align: center;
+}
+
+.sometext {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #666666;
+  margin-left: 125px;
+  margin-top: 47px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 299px;
+  height: 40px;
+}
+
+.search-link {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 12px 25px 11px 30px;
+  margin: 0 auto;
+  width: 172px;
+  border-radius: 40px;
+  background-color: #FF4E50;
+}
+
+footer {
+  border-top: 3px solid #FF4E50;
+  margin-top: 100px;
+  padding-top: 38px;
+  padding-bottom: 36px;
+}
+
+.text-dream {
+  font-size: 16px;
+  color: #FF4E50;
+}
+
+.text-column {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-item {
+  color: #999999;
+  margin: 0 auto;
+}
+
+.menu-item-foot {
+  display: block;
+}
+
+.text-foot {
+  font-size: 10px;
+  font-weight: bold;
+  color: #CCCCCC;
+}
+
+@media screen and (max-width: 1140px) {
+  .works-text-three {
+    width: 221px;
+  }
+  .works-1 {
+    padding: 195px 0 21px;
+  }
+  .works-3 {
+    padding: 198px 0 21px;
+  }
+  .partner-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 88px;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar-brand {
+    margin-left: 19px;
+  }
+  .works-text-three {
+    width: 170px;
+  }
+  .works-1 {
+    padding: 176px 0 21px;
+  }
+  .works-2 {
+    padding: 224px 0 21px;
+  }
+  .works-3 {
+    padding: 176px 0 21px;
+  }
+  .partner-block::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 88px;
+    right: 100px;
+  }
+  .collage {
+    display: grid;
+    grid-template-columns: 236px 236px 236px;
+    grid-template-rows: 310px 310px 310px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .offer {
+    margin-right: -17px;
+  }
+  .partner-block::before {
+    content: "";
+    right: 64px;
+  }
+  .collage {
+    display: grid;
+    grid-template-columns: 180px 180px 180px;
+    grid-template-rows: 300px 300px 300px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .offer-title {
+    font-size: 30px;
+    width: 272px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .text {
+    font-size: 22px;
+    margin-left: 0px;
+  }
+  form {
+    text-align: center;
+  }
+  .offer-text {
+    font-size: 18px;
+    width: 240px;
+    margin: 15px auto;
+  }
+  .works-1 {
+    background-image: url("../images/Step 1 image.jpg");
+    width: 300px;
+    height: 240px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+  }
+  .works-2 {
+    background-image: url("../images/Step 2.jpg");
+    width: 300px;
+    height: 240px;
+    padding-top: 70px;
+    margin-bottom: 10px;
+  }
+  .works-3 {
+    background-image: url("../images/Step 3.jpg");
+    width: 300px;
+    height: 240px;
+    padding-top: 25px;
+  }
+  .text-par {
+    width: 240px;
+    margin: 10px auto;
+  }
+  .partner-block::before {
+    content: "";
+    right: 92px;
+  }
+  .text-hol {
+    width: 240px;
+    margin: 33px auto;
+  }
+  .collage {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 0px 0px;
+  }
+  .text-activity {
+    width: 240px;
+  }
+  .sometext {
+    margin-left: 0px;
+  }
+  input {
+    width: 240px;
+  }
+  .search-link {
+    display: block;
+    margin-top: 10px;
+    width: 240px;
+  }
+  .text-dream {
+    text-align: center;
+  }
+  .menu-item-foot {
+    display: inline;
+  }
+  .text-foot {
+    text-align: center;
+  }
+  .bitmap {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
